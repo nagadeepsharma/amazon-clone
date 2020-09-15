@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import {UserContextProvider} from './components/UserContextProvider'
+import {myreducer,initialState} from './reducer'
 ReactDOM.render(
   <React.StrictMode>
+    <UserContextProvider initialState={initialState} reducer={myreducer}>
     <App />
+    </UserContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

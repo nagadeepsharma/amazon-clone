@@ -1,0 +1,14 @@
+.c_banner{
+    width: 100%;
+    margin-bottom:10px;
+}
+.c_title{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}

@@ -1,0 +1,31 @@
+.cproduct{
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cproduct img{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+.cproduct_info{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cproduct_rating{
+    display: flex;
+}
+.cproduct button{
+    background-color: #f0c14b;
+    border:1px solid;
+    margin-top:10px;
+    color: #111;
+    width: 200px;
+}
+.cproduct_title{
+    font-size: 17px;
+    font-weight: 700;
+}
