@@ -38,5 +38,17 @@
   },
   "devDependencies": {
     "eslint-plugin-react-hooks": "^4.1.2"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagadeepsharma/amazon-clone.git"
+  },
+  "author": "nagadeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagadeepsharma/amazon-clone/issues"
+  },
+  "homepage": "https://github.com/nagadeepsharma/amazon-clone#readme"
 }

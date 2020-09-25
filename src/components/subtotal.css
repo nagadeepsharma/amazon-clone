@@ -15,3 +15,8 @@ button{
     height: 25px;
     color: black;
 }
+@media(max-width:1024px){
+    .subtotal{
+        margin-left: 15px;
+    }
+}

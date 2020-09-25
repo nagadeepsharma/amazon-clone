@@ -60,3 +60,29 @@
     margin-right: 25px;
     font-weight: 600;
 }
+@media(max-width:1024px){
+    .logo{
+        width: 80px;
+    }
+    .header_one{
+        font-size:10px;
+        
+    }
+    .header_searchIcon{
+        padding: 0px;
+    
+    }
+    .header_two{
+        font-size:10px;
+        
+    }
+    .header_searchInput{
+        height: 13px;
+        padding: 5px;
+        border: none;
+        width: 35px;
+    }
+    .header_nav{
+        margin-left: 5px;
+    }
+}
